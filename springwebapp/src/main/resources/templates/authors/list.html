@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="UTF-8">
+        <title>Spring Project</title>
+    </head>
+
+    <body>
+        <h1>Author List</h1>
+
+        <table>
+            <tr>
+                <td>Id</td>
+                <td>First Name</td>
+                <td>Last Name</td>
+            </tr>
+
+            <tr th:each="author : ${authors}">
+                <td th:text="${author.getId()}">Id</td>
+                <td th:text="${author.getFirstName()}">First Name</td>
+                <td th:text="${author.getLastName()}">Last Name</td>
+            </tr>
+
+        </table>
+
+    </body>
+</html>

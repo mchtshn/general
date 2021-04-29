@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb
+    username: admin
+    password: admin
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+##spring-data-rest properties
+  data:
+    rest:
+      base-path: /magic-api
+      default-page-size: 3

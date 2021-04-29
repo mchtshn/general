@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: membership
+  config:
+    import: configserver:http://localhost:8191/
+
+
+
+
+

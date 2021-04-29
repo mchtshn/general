@@ -1,0 +1,6 @@
+@Library('aefes-jenkins-shared-library@master') _
+
+javaProjectPlugin(
+    appName: "him-config-deneme",
+    deployType: "LIB"
+)

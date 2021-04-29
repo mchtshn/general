@@ -1,0 +1,4 @@
+datasource:
+  username: QAsuperuser
+  password: QApassword
+  jdbcurl: QAurl
